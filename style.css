@@ -138,17 +138,20 @@ ul {
 }
 
 #boxes {
+  width: 100%;
   margin-top: 20px;
+  display: flex;
 }
 
-#boxes.box {
+#boxes  .box {
   float: left;
   width: 30%;
   padding: 10px;
   text-align: center;
+  background-color: #ffffff;
 }
 
-#boxes .box img {
+#boxes .box  img {
   width: 90px;
 }
 
@@ -162,6 +165,7 @@ article#main-col {
   float: left;
   width: 65%;
 }
+
 footer {
   padding: 20px;
   margin-top: 20px;
